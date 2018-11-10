@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_navBottomView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="56dp"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal"
+    android:background="@drawable/nav_bottom_shape_layout"
+    android:padding="5dp"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp">
+
+    <LinearLayout
+        android:id="@+id/layoutNav_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imgNav_home"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_home_active"/>
+        <TextView
+            android:id="@+id/txtNav_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/text_nav_bottom_active"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutNav_manage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imgNav_manage"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_manage_normal"/>
+        <TextView
+            android:id="@+id/txtNav_manage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manage"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/text_nav_bottom_normal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutNav_other"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imgNav_other"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_other_normal"/>
+        <TextView
+            android:id="@+id/txtNav_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/text_nav_bottom_normal"/>
+    </LinearLayout>
+
+</LinearLayout>

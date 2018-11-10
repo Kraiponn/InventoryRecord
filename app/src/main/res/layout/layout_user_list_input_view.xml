@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/layoutUserList_inputView"
+    android:padding="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgUserList_profile"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/profile_logo"/>
+
+    <TextView
+        android:id="@+id/txtUserList_selectImage"
+        android:text="@string/text_select_image"
+        style="@style/TextViewSelectImageStyle" />
+
+    <!--User Name-->
+    <TextView
+        android:layout_marginTop="30dp"
+        android:text="@string/text_user_list_title_user_name"
+        style="@style/TextTitleStyle" />
+    <EditText
+        android:id="@+id/edtUserList_userName"
+        android:layout_marginTop="5dp"
+        android:inputType="textPersonName"
+        android:imeOptions="actionNext"
+        android:drawableLeft="@drawable/ic_holo_user_name"
+        style="@style/EditTextBasicStyle" />
+
+    <!--Email-->
+    <TextView
+        android:layout_marginTop="15dp"
+        android:text="@string/text_user_list_title_email"
+        style="@style/TextTitleStyle" />
+    <EditText
+        android:id="@+id/edtUserList_email"
+        android:layout_marginTop="5dp"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:drawableLeft="@drawable/ic_holo_email"
+        style="@style/EditTextBasicStyle"/>
+
+    <!--Password-->
+    <TextView
+        android:layout_marginTop="15dp"
+        android:text="@string/text_user_list_title_password"
+        style="@style/TextTitleStyle" />
+    <EditText
+        android:id="@+id/edtUserList_password"
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+        android:imeOptions="actionNext"
+        android:drawableLeft="@drawable/ic_holo_password"
+        style="@style/EditTextBasicStyle"/>
+
+    <!--Position-->
+    <TextView
+        android:layout_marginTop="15dp"
+        android:text="@string/text_user_list_title_position"
+        style="@style/TextTitleStyle" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edtUserList_position"
+            android:layout_marginTop="5dp"
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionDone"
+            android:drawableLeft="@drawable/ic_holo_position"
+            style="@style/EditTextBasicStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnUserList_openPositionDialog"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/selector_button_add"/>
+    </LinearLayout>
+
+    <!--Button Confirm-->
+    <Button
+        android:id="@+id/btnUserList_confirm"
+        android:text="@string/text_confirm"
+        style="@style/SingleButtonStyle" />
+
+</LinearLayout>

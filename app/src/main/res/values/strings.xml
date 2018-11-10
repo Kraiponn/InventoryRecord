@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">InventoryRecord</string>
+    <string name="text_topic_add_model">Customer Model</string>
+    <string name="text_topic_add_product">Add Product</string>
+    <string name="text_topic_manage_user">Manage User</string>
+    <string name="text_topic_manage_product">Manage Product</string>
+    <string name="text_topic_manage_customer">Manage Customer</string>
+    <string name="text_topic_display_product">Display Products</string>
+    <string name="text_model_name">Model Name</string>
+    <string name="text_process_type">Process Type</string>
+    <string name="text_radio_model_process_add">Add</string>
+    <string name="text_radio_model_process_edit">Edit</string>
+    <string name="text_radio_model_process_delete">Delete</string>
+    <string name="text_radio_model_process_search">Search Data</string>
+    <string name="edit_text_model_name_hint">Enter model</string>
+    <string name="text_user_list_title_user_name">User Name</string>
+    <string name="text_user_list_title_email">Email</string>
+    <string name="text_user_list_title_password">Password</string>
+    <string name="text_user_list_title_position">Position</string>
+    <string name="text_confirm">Confirm</string>
+    <string name="text_add">Add</string>
+    <string name="text_edit">Edit</string>
+    <string name="text_update">Update</string>
+    <string name="text_delete">Delete</string>
+    <string name="text_user_list_title_data_table">User List</string>
+    <string name="text_select_image"><u>select picture</u></string>
+    <string name="text_dialog_select_position">Select your position</string>
+    <string name="text_alert_view_is_null">Please fill this field</string>
+    <string name="text_alert_image_is_null">Please select image</string>
+    <string name="text_alert_radio_button_no_select">Please select some process type</string>
+    <string name="text_alert_email_format"> Your email invalid. Please try again</string>
+    <string name="text_alert_added_item">Added item successfully</string>
+    <string name="text_alert_edited_item">edited item successfully</string>
+    <string name="text_alert_deleted_item">Deleted item successfully</string>
+    <string name="text_alert_added_item_fail">Added item fail</string>
+
+    <string-array name="array_position">
+        <item>Production Engineer</item>
+        <item>Process Engineer</item>
+        <item>Super Visor</item>
+        <item>Reader</item>
+        <item>Sub-contact</item>
+    </string-array>
+
+</resources>

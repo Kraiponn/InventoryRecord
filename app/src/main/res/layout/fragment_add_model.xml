@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="70dp"
+        android:background="@drawable/bg_normal"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/robot_reavers"
+            android:layout_marginTop="10dp"
+            android:text="@string/text_topic_add_model"
+            android:textAllCaps="false"
+            android:textColor="@color/text_white"
+            android:textStyle="bold"
+            android:textSize="28sp"/>
+    </LinearLayout>-->
+
+    <!--<TextView
+        android:id="@+id/txtModelTopic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="120dp"
+        android:background="@drawable/bg_normal"
+        android:gravity="center_horizontal|center_vertical"
+        android:fontFamily="@font/robot_reavers"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_topic_add_model"
+        android:textAllCaps="false"
+        android:textColor="@color/text_white"
+        android:textStyle="bold"
+        android:textSize="28sp"/>-->
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="@string/text_model_name"
+                style="@style/TextTitleStyle" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/edit_text_model_name_hint"
+                android:inputType="textPersonName"
+                android:imeOptions="actionDone"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:text="@string/text_process_type"
+                style="@style/TextTitleStyle" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/radGroup_modelType">
+                <RadioButton
+                    android:id="@+id/radModel_add"
+                    android:text="@string/text_radio_model_process_add"
+                    style="@style/RadioButtonStyle"/>
+                <RadioButton
+                    android:id="@+id/radModel_edit"
+                    android:layout_marginLeft="9dp"
+                    android:text="@string/text_radio_model_process_edit"
+                    style="@style/RadioButtonStyle" />
+                <RadioButton
+                    android:id="@+id/radModel_delete"
+                    android:layout_marginLeft="9dp"
+                    android:text="@string/text_radio_model_process_delete"
+                    style="@style/RadioButtonStyle"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnModel_comfirm"
+                android:text="Add"
+                style="@style/SingleButtonStyle" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_normal"
+                android:fontFamily="@font/robot_reavers_italic"
+                android:padding="12dp"
+                android:drawableLeft="@drawable/ic_display"
+                android:drawablePadding="5dp"
+                android:text="Model List"
+                android:textColor="#fff"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView_modelTable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/custom_categories_layout"
+                android:layout_marginTop="5dp"/>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

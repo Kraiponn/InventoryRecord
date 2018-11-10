@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#455A64</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colortooltip_red">#ca0510</color>
+    <color name="colortooltip_white">#ffffff</color>
+
+    <color name="text_black">#000000</color>
+    <color name="text_blue">#0317ce</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_grey">#fcf9f9</color>
+    <color name="text_transparent">#80000000</color>
+
+    <color name="text_nav_bottom_normal">#616161</color>
+    <color name="text_nav_bottom_active">#00BFA5</color>
+
+    <color name="simpletooltip_background">@color/colortooltip_red</color>
+    <color name="simpletooltip_text">@color/colortooltip_white</color>
+    <color name="simpletooltip_arrow">@color/colortooltip_red</color>
+</resources>

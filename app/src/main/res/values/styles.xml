@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppThemeDefault" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="simpletooltip_default" parent="@android:style/TextAppearance.Medium"></style>
+
+    <style name="MyToastSuccessStyle">
+        <item name="textBold">true</item>
+        <item name="textColor">#fff</item>
+        <item name="textSize">22sp</item>
+        <item name="android:padding">25dp</item>
+        <item name="colorBackground">#0a8911</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">5dp</item>
+        <item name="strokeColor">#fff</item>
+        <item name="iconStart">@drawable/profile_logo</item>
+        <item name="length">LONG</item>
+        <item name="android:gravity">left</item>
+        <item name="radius">17dp</item>
+    </style>
+    <style name="MyToastErrorStyle">
+        <item name="textBold">true</item>
+        <item name="textColor">#fff</item>
+        <item name="android:padding">25dp</item>
+        <item name="textSize">22sp</item>
+        <item name="colorBackground">#d60420</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">5dp</item>
+        <item name="strokeColor">#fff</item>
+        <item name="iconStart">@drawable/profile_logo</item>
+        <item name="length">LONG</item>
+        <item name="gravity">center</item>
+        <item name="radius">17dp</item>
+    </style>
+
+    <style name="TextTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/robot_reavers_italic</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="RadioButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <style name="SingleButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">40dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/selector_single_button</item>
+        <item name="android:fontFamily">@font/robot_reavers</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@drawable/selector_text_clicked</item>
+    </style>
+
+    <style name="EditTextBasicStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:background">@drawable/shape_edit_text</item>
+    </style>
+
+    <style name="TextViewSelectImageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@drawable/selector_text_select_image_clicked</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+</resources>

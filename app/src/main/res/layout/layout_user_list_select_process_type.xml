@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="9dp"
+    android:paddingRight="9dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:text="Select process"
+        style="@style/TextTitleStyle"
+        android:textSize="24sp"/>
+
+    <RadioGroup
+        android:id="@+id/radGroupUserProcess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radUser_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@color/text_transparent"
+            android:background="@drawable/selector_radiobutton_left_choice"
+            android:text="@string/text_radio_model_process_add"
+            android:textColor="@drawable/selector_text_radio_button_state"/>
+        <RadioButton
+            android:id="@+id/radUser_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@color/text_transparent"
+            android:background="@drawable/selector_radiobutton_middle_choice"
+            android:text="@string/text_radio_model_process_edit"
+            android:textColor="@drawable/selector_text_radio_button_state"/>
+        <RadioButton
+            android:id="@+id/radUser_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@color/text_transparent"
+            android:background="@drawable/selector_radiobutton_middle_choice"
+            android:text="@string/text_radio_model_process_delete"
+            android:textColor="@drawable/selector_text_radio_button_state"/>
+        <RadioButton
+            android:id="@+id/radUser_searchUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@color/text_transparent"
+            android:background="@drawable/selector_radiobutton_right_choice"
+            android:text="@string/text_radio_model_process_search"
+            android:textColor="@drawable/selector_text_radio_button_state"/>
+    </RadioGroup>
+
+</LinearLayout>
